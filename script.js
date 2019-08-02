@@ -74,7 +74,7 @@ function scrollThere(targetElement, speed) {
     } // end else if
   
     // scroll smoothly to the target element:
-    scrollThere(targetElement, 400);
+    scrollThere(targetElement, 40);
   
   }); // end on mousewheel event
   //--- END SCROLL EVENTS ---//
