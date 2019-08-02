@@ -3,25 +3,67 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">    
+        <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.min.js"></script>
+        <script src="script.js"></script>
     </head>
     <body>
-        <!-- Image and text -->
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="">
+
+        <nav class="navbar fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
             Gosaye Kaviraj
             </a>
             <span class="navbar-text">
-                    About Me | Resume | Contact Me
+                    <a href="#about">About Me</a> | <a href="#resume">Resume</a> | <a href="#contact">Contact Me</a>
             </span>
         </nav>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">GOSAYE KAVIRAJ</h1>
-                <hr>
-                <p class="lead">Programming Hobbyist | Student</p>
+        
+        <section class="intro" id="intro">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">GOSAYE KAVIRAJ</h1>
+                    <hr>
+                    <p class="lead">Programming Hobbyist | Student</p>
+                </div>
             </div>
-        </div>
+        </section>
+        <section id="about">
+            <div class="card mb-3">
+                <div class="row no-gutters">
+
+                    <div class="col-md-4">
+                        <img src="assets/me.jpg" class="card-img" alt="profile-picture">
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text">Currently an undergraduate student who likes programming and general IT trends.
+                                <dl>
+                                    <dt>Hobbies</dt>
+                                    <dd>Video Games</dd>
+                                    <dd>Table Tennis</dd>
+                                    <dd>Carrom</dd>
+                                </dl>
+                            </p>
+                    
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            test1
+        </section>
+
+        <section id="contact">
+            test2
+        </section>
+    </div>
+        
     </body>
 </html>
 

@@ -1,11 +1,34 @@
+html,body{
+    background-image: url("assets/1.jpg");
+    background-attachment: fixed;
+    background-size: 100% auto;
+    scroll-behavior: smooth;
+   
+}
+nav{
+    position: fixed;
+}
+
+section{
+   /* background-color: rgb(128, 128, 128,0.3);*/
+    height: 100vh ;
+    scroll-snap-align: start;
+    padding-top: 10%;
+}
+
+.navbar.navbar-dark.bg-dark{
+    background-color: ;
+}
+
 .jumbotron-fluid{
     font-family: Saira Stencil One, cursive; 
+    padding-top: 10% !important;
     text-align: center;
     color: white;
     height: 95%;
-    background-image: url("assets/1.jpg");
-    background-attachment: fixed;
+    background-color: transparent !important;
 }
+
 .jumbotron-fluid .container hr{
     border: 1px solid white; 
     width: 50%;
@@ -13,4 +36,15 @@
 
 .navbar-brand{
     font-family: 'Herr Von Muellerhoff', cursive; font-size: 25px;
+}
+#about{
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#about .card.mb-3{
+    background-color: transparent !important;
+    color: white;
+    
 }
