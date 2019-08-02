@@ -1,0 +1,16 @@
+.jumbotron-fluid{
+    font-family: Saira Stencil One, cursive; 
+    text-align: center;
+    color: white;
+    height: 95%;
+    background-image: url("assets/1.jpg");
+    background-attachment: fixed;
+}
+.jumbotron-fluid .container hr{
+    border: 1px solid white; 
+    width: 50%;
+}
+
+.navbar-brand{
+    font-family: 'Herr Von Muellerhoff', cursive; font-size: 25px;
+}
