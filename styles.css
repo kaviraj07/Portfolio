@@ -38,8 +38,8 @@ section{
     height: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    font-family: 'Reem Kufi', sans-serif;
-    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 19px;
 }
 
 #about .card.mb-3{
@@ -66,6 +66,11 @@ ul {
     background-color: rgb(128, 128, 128,0.3) !important;
     border: 2px solid black;
 }
+#resume .card-group .card .card-body{
+    font-family: 'Orbitron', sans-serif;
+}
+
+
 .fa.fa-check{
     padding-left: 25%;
     color: green;
