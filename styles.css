@@ -40,12 +40,13 @@ section{
     padding-right: 10%;
     font-family: 'Courgette', cursive;
     font-size: 19px;
+    
 }
 
 #about .card.mb-3{
     background-color: transparent !important;
     color: white;
-    
+    border: none !important;
 }
 .col-md-8{
     padding-left: 5% !important;
@@ -115,7 +116,7 @@ ul {
 #contact a:visited{
     color: black !important;
 }
-#contact a:hover{
+#contact li:hover{
     color: purple !important;
 }
 #contact a:active{
